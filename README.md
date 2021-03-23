@@ -1,7 +1,4 @@
-<div>
-  <img src="logo.png" style="vertical-align: middle" width="100"/>
-  <span style="vertical-align: middle">Here is some text.</span>
-</div>
+# Lexicon
 
 Android application for learning English words.
 
