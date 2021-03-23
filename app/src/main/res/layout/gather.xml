@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:background="@drawable/frame">
+
+    <TextView android:id="@+id/tvOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/tvOrder_text"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"/>
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:layout_centerInParent="true">
+
+        <TextView android:id="@+id/tvTranslation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"/>
+
+        <kz.develop.lexicon.HorizontalFlowLayout
+            android:id="@+id/flowContainer"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:clipChildren="false"/>
+
+        <kz.develop.lexicon.HorizontalFlowLayout
+            android:id="@+id/flowLetters"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:clipChildren="false"/>
+
+    </LinearLayout>
+
+    <Button android:id="@+id/btnOK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/variant"
+        android:textColor="@color/variant_color"
+        android:text="@string/btnOK_text"
+        android:layout_alignParentBottom="true"/>
+
+    <View android:id="@+id/Separator2"
+        android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="@drawable/separator"
+        android:layout_above="@+id/btnOK"/>
+
+</RelativeLayout>

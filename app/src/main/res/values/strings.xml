@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lexicon</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_add">Add a new set</string>
+    <string name="action_search">Search for a word</string>
+    <string name="action_exit">Exit</string>
+    <string name="tvDialogFillInfo_text">Please wait while a new set of words is being created...</string>
+    <string name="DialogFill_title">Working...</string>
+    <string name="word_name">Back</string>
+    <string name="action_add_word">Add word</string>
+    <string name="action_start">Start training</string>
+    <string name="tvOf">of</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_delete_all">Delete all</string>
+    <string name="dlgConfirm_title">Are you sure?</string>
+    <string name="btnPositive_title">Yes</string>
+    <string name="btnNegative_title">No</string>
+    <string name="dlgConfirm_message">Do you really want to delete selected item?\nAll the words of current set will be lost.</string>
+    <string name="dlgConfirmAll_message">Do you really want to delete all the items?\nIn that case all the data will be lost.</string>
+    <string name="tvSetInfo_text">Please choose one of the following dictionaries, from which a new set will consist.</string>
+    <string name="tvSetWordsCount_text">Count of words:</string>
+    <string name="btnSetOk_text">Create it!</string>
+    <string name="DialogAdd_title">Adding a new set of words</string>
+    <string name="btnCancel_text">Cancel</string>
+    <string name="toastYouHave_text">You have learned all the words in selected base.\nThe amount of added words:</string>
+    <string name="etWord_text">Your word</string>
+    <string name="word_add_name">Searching</string>
+    <string name="tvCount_text">words</string>
+    <string name="btnSearch_text">Search</string>
+    <string name="toastEmpty_text">Please enter the word you\'re looking for</string>
+    <string name="btnAdd_text">Add</string>
+    <string name="DialogWordInfo_title">Adding a new word</string>
+    <string name="toastAdded_text">The word has been added</string>
+    <string name="tvUserNum_text">Learned:</string>
+    <string name="tvWholeNum_text">Total:</string>
+    <string name="training_name">Training</string>
+    <string name="btnNext_text">Next</string>
+    <string name="tvWrong_text">You are wrong! Memorize:</string>
+    <string name="tvOrder_text">Put letters in correct order</string>
+    <string name="btnOK_text">OK</string>
+
+</resources>

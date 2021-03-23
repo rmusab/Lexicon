@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frame">
+
+    <LinearLayout android:id="@+id/llWord"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnSound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/sound"
+            android:drawableLeft="@drawable/sound"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/tvWord"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textIsSelectable="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTranscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:gravity="center"
+        android:textStyle="normal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/llWord"/>
+
+    <View
+        android:id="@+id/Separator1"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@drawable/separator"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/tvTranscription"/>
+
+    <TextView
+        android:id="@+id/tvTranslation"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="left"
+        android:textIsSelectable="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        android:layout_below="@+id/Separator1"/>
+
+    <TextView
+        android:id="@+id/tvPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:textStyle="italic"/>
+
+</RelativeLayout>
